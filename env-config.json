@@ -1,0 +1,21 @@
+{
+    "WEBSITE_URLS": {
+    "DEFAULT": "https://onetouchreveal.fr",
+    "OLD": "https://onetouchreveal.fr"
+    },
+    "PATIENT": {
+    "EMAIL": "techopspatient@mailinator.com",
+    "PASSWORD": "Password@123"
+    },
+    "HCP": {
+    "EMAIL": "techopshcp@mailinator.com",
+    "PASSWORD": "Password@123"
+    },
+    "CLINICMANAGER": {
+    "EMAIL": "techopscm@mailinator.com",
+    "PASSWORD": "C0nn3ct!!!"
+    },
+    "CLINICCODE": "ZFHQDV",
+    "DOWNLOADPATH": "/Users/hariprasad/Downloads",
+    "LOADING_LIMIT_MS": 15000
+    }

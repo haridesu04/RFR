@@ -1,0 +1,21 @@
+{
+  "PATIENT_LOGIN_URLS": {
+    "DEFAULT": "",
+    "OLD": ""
+  },
+  "PATIENT": {
+    "EMAIL": "",
+    "PASSWORD": ""
+  },
+  "HCP": {  #To run HCP function for france,you must use EMAIL from @mailinator.com 
+    "EMAIL": "",
+    "PASSWORD": ""
+  },
+  "CLINICMANAGER": {
+    "EMAIL": "",
+    "PASSWORD": ""
+  },
+  "CLINICCODE": "",
+  "DOWNLOADPATH": "",
+  "LOADING_LIMIT_MS": 12000
+}
