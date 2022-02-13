@@ -16,6 +16,6 @@
     "PASSWORD": "C0nn3ct!!!"
     },
     "CLINICCODE": "ZFHQDV",
-    "DOWNLOADPATH": "/Users/hariprasad/Downloads",
+    "DOWNLOADPATH": "/Users/hariprasad/.jenkins/workspace/rfr/Downloads",
     "LOADING_LIMIT_MS": 15000
     }
