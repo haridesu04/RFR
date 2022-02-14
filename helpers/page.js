@@ -16,7 +16,6 @@ module.exports = class Page {
     capabilities.set('chromeOptions', { "w3c": false , 'args': ['no-sandbox', 'disable-dev-shm-usage', 'headless', 'disable-gpu']});
     this.driver = new Builder().forBrowser('chrome').withCapabilities(capabilities).build();
   }
-  }
 
   async input_text(element_id, text){
     const input = await this.driver.findElement(By.id(element_id));
