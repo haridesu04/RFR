@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const { Builder, Capabilities, By, DirectoryInfo, until, WebElement, WebDriver } = require('selenium-webdriver');
+const { Builder, Capabilities, By, DirectoryInfo, selenium, until, WebElement, WebDriver } = require('selenium-webdriver');
 const { Options } = require('selenium-webdriver/chrome');
 const EnvironmentHelper = require('./environment_helper')
 require("chromedriver");
