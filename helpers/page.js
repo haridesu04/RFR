@@ -11,9 +11,11 @@ const envs = Helper.getEnvs();
 module.exports = class Page {
 
   constructor(){
-    const capabilities = Capabilities.chrome();
-    capabilities.set('chromeOptions', { "w3c": false });
-    this.driver = new Builder().forBrowser('chrome').setChromeOptions(new chrome.Options().headless()).withCapabilities(capabilities).build();
+    var selenium = require('selenium-webdriver');
+    var capabilities = selenium.Capabilities.chrome();
+    capabilities.set('chromeOptions', { "w3c": false , 'args': ['no-sandbox', 'disable-dev-shm-usage', 'headless', 'disable-gpu']});
+    this.driver = new Builder().forBrowser('chrome').withCapabilities(capabilities).build();
+  }
   }
 
   async input_text(element_id, text){
